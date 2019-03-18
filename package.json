@@ -1,16 +1,17 @@
 {
-  "name"         : "node-web-scrape",
-  "version"      : "0.0.1",
-  "description"  : "Scrape le web.",
-  "main"         : "server.js",
-  "author"       : "Scotch",
-  "repository"   : {
-    "type" : "git",
-    "url"  : "https://github.com/scotch-io/node-web-scraper"
+  "name": "node-word-finder",
+  "version": "0.0.1",
+  "description": "Find words on a website in context",
+  "main": "server.js",
+  "author": "Laura Ferguson",
+  "bin": {
+    "wordfind": "bin/wordfind"
   },
-  "dependencies" : {
-    "express"    : "latest",
-    "request"    : "latest",
-    "cheerio"    : "latest"
+  "dependencies": {
+    "cheerio": "latest",
+    "commander": "^2.19.0",
+    "express": "latest",
+    "minimist": "^1.2.0",
+    "request": "latest"
   }
 }

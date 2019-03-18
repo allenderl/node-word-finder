@@ -1,12 +1,9 @@
-node-web-scraper
+node-word-finder
 ================
 
-Simple web scraper to get a movie name, release year and community rating from IMDB.
-To run this example use the following commands:
+Simple web scraper to search for a phrase on a website
 
 ``` shell
 $ npm install
-$ node server.js
+$  ./bin/wordfind https://www.apple.com/ Shop
 ```
-
- Then it will start up our node server, navigate to http://localhost:8081/scrape and see what happens.
